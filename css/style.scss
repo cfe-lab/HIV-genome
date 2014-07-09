@@ -1,5 +1,3 @@
-@import 'bootstrap/normalize';
-
 $blue:			#33b5e5;
 $purple:		#aa66cc;
 $green:			#99cc00;
@@ -10,6 +8,11 @@ $darkpurple:	#9933cc;
 $darkgreen:		#669900;
 $darkorange:	#ff8800;
 $darkred:		#cc0000;
+
+body {
+	margin: 0;
+	font-family: "Helvetica Neue";
+}
 
 div {
 	box-sizing: border-box;
