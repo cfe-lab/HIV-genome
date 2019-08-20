@@ -1,10 +1,13 @@
-<!DOCTYPE html>
+{% extends "tool_base.html" %}
+{% load static %}
 
-<html>
-	<head>
-		<link rel="stylesheet" href="../css/style.css">
-	</head>
-	<body>
+{% block head %}
+		<title>HIV-I HXB2 Genome</title>
+		<link rel="stylesheet" href="{% static "/genome_css/style.css" %}">
+{% endblock %}
+
+{% block content %}
+	<div id="body-div">
 		<div class="container">
 			<div class="title">
 				<h1>HIV-I HXB2 Genome</h1>
@@ -128,5 +131,5 @@
 			<div class="rlabel">9000</div>
 			<div class="rlabel last">9719</div>
 		</div>
-	</body>
-</html>
+	</div>
+{% endblock %}
